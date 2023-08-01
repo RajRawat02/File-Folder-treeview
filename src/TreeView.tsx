@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import React = require('react');
+import React from 'react';
 import { FcFile, FcFolder } from 'react-icons/fc';
 
 const TreeView = ({ data, isChild = false }) => {
